@@ -1,0 +1,322 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1851488995
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1851488997}
+  - component: {fileID: 1851488996}
+  m_Layer: 0
+  m_Name: MusicAudioManager
+  m_TagString: AudioManagerMusic
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1851488997
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851488995}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1922032681778463385}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1851488996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851488995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f426dfd70b21ec4bb54f84397a3f312, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - clip: {fileID: 8300000, guid: 2bc166f3c2db0674297e84cabf74d5b0, type: 3}
+    name: Fight 1
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    audioSource: {fileID: 0}
+  - clip: {fileID: 8300000, guid: bad7262a71203b047af19ce0445622ad, type: 3}
+    name: Fight 2
+    volume: 0.25
+    pitch: 1
+    loop: 1
+    audioSource: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 544e70bed1a37344ab91183d8fd3960e, type: 3}
+    name: Fight 3
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    audioSource: {fileID: 0}
+  _currentTheme: Fight 2
+  _managerType: 0
+--- !u!1 &2045992347
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2045992349}
+  - component: {fileID: 2045992348}
+  m_Layer: 0
+  m_Name: SpellAudioManager
+  m_TagString: AudioManagerSpell
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2045992349
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045992347}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1922032681778463385}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2045992348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045992347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f426dfd70b21ec4bb54f84397a3f312, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - clip: {fileID: 8300000, guid: b6c42190fe13b294297a1b0aa772eeca, type: 3}
+    name: Spell
+    volume: 1
+    pitch: 1
+    loop: 0
+    audioSource: {fileID: 0}
+  _currentTheme: 
+  _managerType: 3
+--- !u!1 &1922032680507340658
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1922032680507340660}
+  - component: {fileID: 1922032680507340661}
+  m_Layer: 0
+  m_Name: EnemyDeathAudioManager
+  m_TagString: AudioManagerDeath
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1922032680507340660
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922032680507340658}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1922032681778463385}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1922032680507340661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922032680507340658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f426dfd70b21ec4bb54f84397a3f312, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - clip: {fileID: 8300000, guid: 72a621d8bb08b7146a0382ec4c230f47, type: 3}
+    name: EnemyDeath1
+    volume: 1
+    pitch: 1
+    loop: 0
+    audioSource: {fileID: 0}
+  - clip: {fileID: 8300000, guid: c0f9dea245a9c0842948023cad2dc2b1, type: 3}
+    name: EnemyDeath2
+    volume: 1
+    pitch: 1
+    loop: 0
+    audioSource: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 40df9ee13ca77d548bf0cd088662d3b1, type: 3}
+    name: EnemyDeath3
+    volume: 1
+    pitch: 1
+    loop: 0
+    audioSource: {fileID: 0}
+  - clip: {fileID: 8300000, guid: a4c901f368255234db52eb6c3ace86dd, type: 3}
+    name: EnemyDeath4
+    volume: 1
+    pitch: 1
+    loop: 0
+    audioSource: {fileID: 0}
+  - clip: {fileID: 8300000, guid: a2e6b370b46d7f94ab5f461b516b986e, type: 3}
+    name: EnemyDeath5
+    volume: 1
+    pitch: 1
+    loop: 0
+    audioSource: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 7ceec14d551688d4cae324416e1c59a1, type: 3}
+    name: EnemyDeath6
+    volume: 1
+    pitch: 1
+    loop: 0
+    audioSource: {fileID: 0}
+  _currentTheme: 
+  _managerType: 2
+--- !u!1 &1922032680825839206
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1922032680825839208}
+  - component: {fileID: 1922032680825839209}
+  m_Layer: 0
+  m_Name: EnemyHitAudioManager
+  m_TagString: AudioManagerHit
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1922032680825839208
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922032680825839206}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1922032681778463385}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1922032680825839209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922032680825839206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f426dfd70b21ec4bb54f84397a3f312, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - clip: {fileID: 8300000, guid: 6d998d43a8425f541a36aab04f61e053, type: 3}
+    name: EnemyHit1
+    volume: 1
+    pitch: 1
+    loop: 0
+    audioSource: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 5a939309e3577af4581a5062b0c9adc5, type: 3}
+    name: EnemyHit2
+    volume: 1
+    pitch: 1
+    loop: 0
+    audioSource: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 01fbce597ae009642bf4dce73fc81af5, type: 3}
+    name: EnemyHit3
+    volume: 1
+    pitch: 1
+    loop: 0
+    audioSource: {fileID: 0}
+  - clip: {fileID: 8300000, guid: d004a1883dc43bb438f357be408478cc, type: 3}
+    name: EnemyHit4
+    volume: 1
+    pitch: 1
+    loop: 0
+    audioSource: {fileID: 0}
+  - clip: {fileID: 8300000, guid: ea36d4fc8a9d96b45b658ecb373f80cb, type: 3}
+    name: EnemyHit5
+    volume: 1
+    pitch: 1
+    loop: 0
+    audioSource: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 9ebb1705288e03f4f97a4766246c0b3d, type: 3}
+    name: EnemyHit6
+    volume: 1
+    pitch: 1
+    loop: 0
+    audioSource: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 933f6be5a8652af4eb7d5218c7bc6b8a, type: 3}
+    name: EnemyHit7
+    volume: 1
+    pitch: 1
+    loop: 0
+    audioSource: {fileID: 0}
+  _currentTheme: 
+  _managerType: 1
+--- !u!1 &1922032681778463382
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1922032681778463385}
+  m_Layer: 0
+  m_Name: AudioManagers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1922032681778463385
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922032681778463382}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.848503, y: 0.9999981, z: 16.262482}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1922032680825839208}
+  - {fileID: 1922032680507340660}
+  - {fileID: 1851488997}
+  - {fileID: 2045992349}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
